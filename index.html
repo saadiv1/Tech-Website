@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NEXT Horizon</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">NEXT Horizon</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links"> Home </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="tech.html" class="navbar__links"> Labs </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="products.html" class="navbar__links"> Products </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="signup.html" class="button"> Sign Up </a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="main">
+            <div class="main__container">
+                <div class="main__content">
+                    <span class="main__eyebrow">Built for modern creators</span>
+                    <h1>NEXT</h1>
+                    <h2>HORIZON EXPERIENCE</h2>
+                    <p>Sharper visuals, smarter tools, and a brand feel that actually stands out.</p>
+                    <button class="main__btn"><a href="signup.html">Get started</a></button>
+                </div>
+                <div class="main__img--container">
+                    <div class="main__orbit main__orbit--one"></div>
+                    <div class="main__orbit main__orbit--two"></div>
+                    <img src="images/pic1.svg" alt="" id="main__img">
+                </div>
+            </div>
+        </div>
+        <!-- Services Section -->
+        <div class="services">
+            <h1>See what's next</h1>
+            <div class="services__container">
+                <div class="services__card">
+                    <span class="services__tag">Immersive</span>
+                    <h2>Future-ready visuals</h2>
+                    <p>Layered gradients, stronger typography, and a more premium first impression.</p>
+                    <button onclick="window.location.href='products.html'">Explore Design</button>
+                </div>
+                <div class="services__card">
+                    <span class="services__tag">Momentum</span>
+                    <h2>Launch with confidence</h2>
+                    <p>Cleaner structure, clearer messaging, and UI sections that feel intentional.</p>
+                    <button onclick="window.location.href='signup.html'">Start Building</button>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Section-->
+        <div class="footer__container">
+            <div class="footer__intro">
+                <p class="footer__kicker">NEXT Horizon</p>
+                <h2>Smarter navigation, cleaner footer, better brand presence.</h2>
+            </div>
+            <div class="footer__links">
+                <div class="footer__link--items">
+                        <h2>Company</h2>
+                        <a href="/">How it works</a>
+                        <a href="/">Testimonials</a>
+                        <a href="/">Careers</a>
+                        <a href="/">Investments</a>
+                        <a href="/">Terms of Service</a>
+                </div>
+                <div class="footer__link--items">
+                        <h2>Support</h2>
+                        <a href="/">Contact</a>
+                        <a href="/">Support</a>
+                        <a href="/">Destinations</a>
+                        <a href="/">Sponsorships</a>
+                </div>
+                <div class="footer__link--items">
+                        <h2>Creator Network</h2>
+                        <a href="/">Submit Video</a>
+                        <a href="/">Ambassadors</a>
+                        <a href="/">Agency</a>
+                        <a href="/">Influencer</a>
+                </div>
+                <div class="footer__link--items">
+                        <h2>Social</h2>
+                        <a href="/">Instagram</a>
+                        <a href="/">Facebook</a>
+                        <a href="/">YouTube</a>
+                        <a href="/">Twitter</a>
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="index.html" id="footer__logo"><i class="fas 
+                        fa-gem">NEXT</i></a>
+                    </div>
+                    <p class="website__rights"> &#169; NEXT Horizon. All rights reserved.</p>
+                    <div class="social__icons">
+                        <a href="/" class="social__icon--link"
+                        target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="/" class="social__icon--link"
+                        target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="/" class="social__icon--link"
+                        target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="/" class="social__icon--link"
+                        target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="/" class="social__icon--link"
+                        target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>  
+    </body>
+</html>
