@@ -248,7 +248,7 @@ body::before {
     background:
         radial-gradient(circle at top left, rgba(122, 140, 255, 0.32), transparent 34%),
         linear-gradient(180deg, rgba(7, 17, 31, 0.4), rgba(7, 17, 31, 0.88)),
-        url('/images/pic3.jpg');
+        url('images/pic3.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -457,7 +457,7 @@ body::before {
     overflow: hidden;
     background-image:
         linear-gradient(180deg, rgba(7, 17, 31, 0.08), rgba(7, 17, 31, 0.92)),
-        url('/images/pic4.jpg');
+        url('images/pic4.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: var(--shadow);
@@ -467,7 +467,7 @@ body::before {
 .services__card:nth-child(2) {
     background-image:
         linear-gradient(180deg, rgba(7, 17, 31, 0.08), rgba(7, 17, 31, 0.92)),
-        url('/images/pic3.jpg');
+        url('images/pic3.jpg');
 }
 
 .services__card::after {
